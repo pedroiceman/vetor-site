@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato — Vetor Sistemas</title>
+  <meta name="description" content="Fale com a Vetor Sistemas para marcar um diagnóstico inicial sobre software ou inteligência artificial para sua empresa.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 20 L14 4 L14 10 L22 10 L10 20 L10 14 L2 20 Z"/></svg>
+        Vetor Sistemas
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu-principal">
+        <span class="bar"></span>
+        Menu
+      </button>
+      <nav class="primary-nav" id="menu-principal" aria-label="Navegação principal">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="cases.html">Cases</a></li>
+          <li><a href="contato.html" aria-current="page">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero">
+      <div class="wrap">
+        <div class="hero-copy">
+          <h1>Conte o que está travando hoje.</h1>
+          <p class="lede">Respondemos em até um dia útil com um retorno honesto — inclusive quando a resposta é que ainda não é hora de contratar uma consultoria.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-alt">
+      <div class="wrap contato-layout grid grid-2">
+        <form class="form-grid" action="#" method="post">
+          <h2>Envie uma mensagem</h2>
+          <div class="field">
+            <label for="nome">Nome completo</label>
+            <input type="text" id="nome" name="nome" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="empresa">Empresa</label>
+            <input type="text" id="empresa" name="empresa" autocomplete="organization">
+          </div>
+          <div class="field">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="assunto">Assunto</label>
+            <select id="assunto" name="assunto">
+              <option value="desenvolvimento">Desenvolvimento de software</option>
+              <option value="ia">Inteligência artificial</option>
+              <option value="consultoria">Consultoria e arquitetura</option>
+              <option value="outro">Outro assunto</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Enviar mensagem</button>
+        </form>
+
+        <div class="contact-info">
+          <div>
+            <h3>E-mail</h3>
+            <p><a href="mailto:contato@vetorsistemas.com.br">contato@vetorsistemas.com.br</a></p>
+          </div>
+          <div>
+            <h3>Telefone</h3>
+            <p><a href="tel:+5595999990000">(95) 99999-0000</a></p>
+          </div>
+          <div>
+            <h3>Endereço</h3>
+            <p>Av. Capitão Ene Garcez, 1200 — Sala 304<br>Boa Vista, RR — CEP 69301-000</p>
+          </div>
+          <div>
+            <h3>Horário de atendimento</h3>
+            <p>Segunda a sexta, das 8h às 18h (horário de Roraima).</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <a class="brand" href="index.html">
+          <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 20 L14 4 L14 10 L22 10 L10 20 L10 14 L2 20 Z"/></svg>
+          Vetor Sistemas
+        </a>
+        <p>Software e inteligência artificial para empresas que precisam de direção, não de mais complexidade.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Mapa do site">
+        <ul>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="cases.html">Cases</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-nav" aria-label="Contato">
+        <ul>
+          <li><a href="contato.html">Fale conosco</a></li>
+          <li><a href="mailto:contato@vetorsistemas.com.br">contato@vetorsistemas.com.br</a></li>
+          <li><a href="tel:+5595999990000">(95) 99999-0000</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom">
+      <span>© 2026 Vetor Sistemas. Todos os direitos reservados.</span>
+      <span>Boa Vista, RR — Brasil</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
